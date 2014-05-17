@@ -1,0 +1,24 @@
+{
+  "name": "bennux_app",
+  "version": "0.1.0",
+  "description": "A chat example to showcase how to use `socket.io` with a static `express` server",
+  "main": "server.js",
+  "repository": {
+    "type": "git",
+    "url": "bennux/bennux_app"
+  },
+  "author": "Mostafa Eweda <mostafa@c9.io>",
+  "dependencies": {
+    "async": "~0.2.8",
+    "express": "~3.2.4",
+    "socket.io": "~0.9.14"
+  },
+  "scripts": {
+    "start": "node server.js"
+  },
+  "devDependencies": {},
+  "keywords": [
+    "bennux"
+  ],
+  "license": "BSD-2-Clause"
+}
